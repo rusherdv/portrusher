@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+body{
+    background-image: linear-gradient(90deg, #000000 0%, #1d1d1d 75%, #363636 100%);
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+    font-size: 40px;
+}
+
+section{
+    border-right: 1px solid white;
+    padding-right: 50px;
+    max-height: 300px;
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+}
+
+
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+a{
+    padding-top: 50px;
+    transition: all .2s ease-in-out;
+    -webkit-text-stroke: 1px white;
+    text-decoration: none;
+    color: transparent;
+}
+
+a:hover{
+    -webkit-text-stroke: 1px rgb(255, 0, 0);
+    color: transparent;
+    transform: scale(1.1);
+    cursor: pointer;
+    border-radius: 15px;
+    text-shadow:
+    0 0 1px rgb(0, 0, 0),
+    0 0 10px rgb(255, 0, 0),
+    0 0 15px rgb(255, 0, 0),
+    0 0 25px rgb(255, 0, 0),
+    0 0 50px rgb(44, 0, 0);
+}
+ 
+ul:hover + section{
+    padding-right: 20%;
+}
+
+.info{
+    display: flex;
+    margin-left: 10%;
+    flex-direction: row;
+}
+
+
+h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.dv{
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-size: 20px;
+    display: flex;
+}
+
+.imgtext{
+    margin-left: 5%;
+    padding-right: 100px;
+}
+
+
+
+/*
+[data-title]:hover:after {
+    visibility: visible;
+    position: absolute;
+}
+  
+[data-title]:after {
+    content: attr(data-title);
+    color: transparent;
+    font-family: "Poppins", sans-serif;
+    font-size: 80%;
+    position: absolute;
+    visibility: hidden;
+    margin-left: 40px;
+    text-shadow: none;
+    transition: all ease-in-out 0.1s;
+    -webkit-text-stroke: 0.1px rgb(255, 28, 28);
+
+}
+
+*/
+
+
+
+/* PORTAFOLIO */
+
+.cartas{
+    margin-left: 10%;
+}
+
+.card{
+    box-shadow: 0 0 10px red
+}
+
+.card:hover{
+    box-shadow: 0 0 20px red
+}
+
+.defaultimg{
+    transition: all linear .2s;
+}
+
+.defaultimg:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 5px red;
+}
+
+.reds{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 14%;
+    margin-bottom: 5%;
+    font-size: 30px;
+}
+
+#github{
+    padding-right: 10px;   
+}
+
+#github:hover{
+    padding-right: 10px;   
+    text-shadow: none;
+    -webkit-text-stroke: 1px white;
+}
+
+#discord:hover{
+    padding-right: 10px;   
+    text-shadow: none;
+    -webkit-text-stroke: 1px white;
+}

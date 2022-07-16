@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+
+h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.qhacemos{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+    width: 500px;
+    border-top: 1px solid rgb(0, 0, 0);
+}
+
+.texts{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: nowrap;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    
+}
+
+.texts ul{
+    position: relative;
+    max-width: 80%;
+    display: flex;
+    justify-content: space-between;
+    border-left: black 4px solid;
+}
+
+.texts ul li{
+    list-style: none;
+    display: inline-block;
+    max-width: 300px;
+    display: flex;
+    padding: 10px;
+}
+
+.cartas{
+    padding: 2.8rem;
+    display: flex;
+    justify-content: center;
+}
+
+.quienes{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 15px;
+    width: 200px;
+    border-top: 1px solid rgb(182, 181, 181); 
+}
+
+h4{
+    padding-left: px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.progreso{
+    max-width: 550px;
+    margin: auto;
+    border: 1px rgb(182, 181, 181) solid;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+/* FOOTER */
+
+footer{
+    height: 100px;
+    background-color: rgb(13, 110, 253);
+    margin-top: 50px;
+}
+
+.redes{
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px
+}
+
+
+#github{
+    font-size: 30px;
+    color:white;
+    background-color: rgb(3, 83, 202);
+    padding: 12px;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: all ease-in-out 0.2s;
+}
+
+#instagram{
+    font-size: 30px;
+    color:white;
+    background-color: rgb(3, 83, 202);
+    padding: 12px;
+    border-radius: 25px;
+    margin-left: 10px;
+    text-decoration: none;
+    transition: all ease-in-out 0.2s;
+}
+
+.red{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    padding-left: 10px;
+    padding-top: 12px;
+    margin-left: 10px;
+    border-left: 2px solid black;
+}
+
+.mapa{
+    display: flex;
+    justify-content: flex-end;
+    color:white;
+    margin-top: -60px;
+    margin-right: 50px;
+}
+
+#location{
+    font-size: 20px;
+    background-color: rgb(3, 83, 202);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 11px;
+    padding-right: 11px;
+    border-radius: 25px;
+    color:white;
+    text-decoration: none;
+    transition: all ease-in-out 0.2s;
+}
+
+#location:hover{
+    transform: scale(1.2);
+    background-color: rgb(0, 31, 77);
+}
+
+#github:hover{
+    transform: scale(1.2);
+    background-color: rgb(0, 31, 77);
+}
+
+#instagram:hover{
+    transform: scale(1.2);
+    background-color: rgb(0, 31, 77);
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    flex-direction: column;
+    margin: auto;
+    border: 1px solid rgb(184, 184, 184);
+    padding: 20px;
+}
+
+#name{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 30%;
+    border-radius: 5px;
+    border: 1px solid rgb(184, 184, 184);
+    outline: none;
+    padding-left: 5px;
+    transition: all ease-in-out 0.5s;
+}
+
+#name:focus{
+    width: 50%;
+    border: 1px solid rgb(54, 54, 54);
+}
+
+#email{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 30%;
+    border-radius: 5px;
+    border: 1px solid rgb(184, 184, 184);
+    outline: none;
+    transition: all ease-in-out 0.5s;
+    padding-left: 5px;
+}
+
+#email:focus{
+    width: 50%;
+    border: 1px solid rgb(54, 54, 54);
+}
+
+#sexo{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 20%;
+}
+
+#file{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#tel{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 30%;
+    transition: all ease-in-out 0.5s;
+    border-radius: 5px;
+    border: 1px solid rgb(184, 184, 184);
+    outline: none;
+    padding-left: 5px;
+}
+
+#tel:focus{
+    width: 50%;
+    border: 1px solid rgb(54, 54, 54);
+}
+
+#submit{
+    margin-top: 10px;
+    width: 20%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(184, 184, 184);
+    font-size: 15px;
+    transition: all ease-in-out 0.5s;
+    display: flex;
+}
+
+#submit:hover{
+    width: 25%;
+    border: 1px solid rgb(54, 54, 54);
+}
+
+#submit:hover #plane{
+    display: flex;
+    padding-top: 3px;
+    padding-left: 8px;
+    padding-right: 5px;
+    visibility: visible;
+    opacity: 1;
+}
+
+#plane{
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+}

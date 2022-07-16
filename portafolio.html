@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/28d451baba.js" crossorigin="anonymous"></script>
+
+    <!-- Local Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <section>
+            <ul>
+                <a href="index.html" title="Inicio" data-title="INICIO" class="fa-solid fa-house"></a>
+                <a href="portafolio.html" title="Portafolio" data-title="PORTAFOLIO" class="fa-solid fa-briefcase"></a>
+                <a href="#" title="Sobre mi" data-title="SOBRE MI" class="fa-solid fa-user"></a>
+            </ul>
+        </section>
+        
+        <div class="proyectos">
+            <div style="display: flex" class="cartas">
+                <div onclick="window.open('onu/index.html','mywindow');"class="card" style="width: 20rem;margin: 20px; cursor:pointer">
+                  <img src="onu.png" style="object-fit: cover;"class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">ONU</h5>
+                  </div>
+                </div>
+                <div class="card" style="width: 18rem;margin: 20px;">
+                  <img src="img/vegeta.jpg" style="object-fit: cover;max-height: 165px;"class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">SOON</h5>
+                  </div>
+                </div>
+                <div class="card" style="width: 18rem;margin: 20px;">
+                  <img src="img/gohan.png" style="object-fit: cover;"class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">SOON</h5>
+                  </div>
+                </div>
+          
+              </div>
+        </div>
+    </div>
+
+
+
+</body>
+</html>
